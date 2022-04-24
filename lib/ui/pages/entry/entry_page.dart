@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 class EntryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('Entry page'),
+    return Scaffold(
+      body: Center(
+        child: Text('Entry Page'),
+      ),
     );
   }
 }
